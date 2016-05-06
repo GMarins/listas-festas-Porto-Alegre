@@ -5,6 +5,7 @@ Atualmente funcionando para as casas Cucko, Beco, Sinners e Margot, com previsã
 
 Para executar, simplesmente use:
 
-'''
+```
 python autoscripy.py
-'''
+```
+
