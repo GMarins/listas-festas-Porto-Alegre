@@ -6,14 +6,10 @@ import re
 import mechanize
 import bs4
 
-def cucko(s): #functional one name at the time, mult events, CHECK
+def cucko(s): 
 	br = mechanize.Browser()
-	nomes = ['Gabriel Marins da Costa','Joao Vitor Correa', 'Thomas Vaitses Fontanari',
-			'Joao Cesar Onofrio','Julia Dal Bosco','Franciele Velasques',
-			'Gabriela Leguissamo','Ana Carolina dos Santos',
-			'Carolina Ceolato','Tainah Piazetta','Rafael Coimbra Gus',
-			'Rodrigo Sampaio','Pedro Morgan','Gabriel Griep','Iury Kuznecow']
-	email = 'gmc.marins@gmail.com'
+	nomes = ['Name1','Name2'] #Insert the names
+	email = '' #Insert your email
 
 	for nome in nomes:
 		retorno = br.open(s)
@@ -28,9 +24,8 @@ def sinners(s): #Fully Functional, mult names, one event per time CHECK
 
 	retorno = br.open(s)
 
-	email = 'gmc.marins@gmail.com'
-	nomes = ['Gabriel Marins da Costa','Julia Dal Bosco', 'Thomas Vaitses Fontanari',
-			'Joao Vitor Correa Nogueira','Joao Cesar Onofrio']
+	nomes = ['Name1','Name2'] #Insert the names
+	email = '' #Insert your email
 
 	for f in br.forms():
 		print f
@@ -49,9 +44,8 @@ def sinners(s): #Fully Functional, mult names, one event per time CHECK
 def margot(s): #Seems working
 	"""61"""
 	br = mechanize.Browser()
-	email = 'gmc.marins@gmail.com'
-	nomes = ['Gabriel Marins da Costa','Julia Dal Bosco','Joao Vitor Correa Nogueira',
-			'Tainah Piazetta','Carolina Ceolato']
+	nomes = ['Name1','Name2'] #Insert the names
+	email = '' #Insert your email
 
 	retorno = br.open(s)
 
@@ -72,11 +66,8 @@ def beco(s):
 
 	br = mechanize.Browser()
 
-	email = 'gmc.marins@gmail.com'
-	nomes = ['Gabriel Marins da Costa','Joao Vitor Correa', 'Thomas Vaitses Fontanari',
-			'Joao Cesar Onofrio','Julia Dal Bosco','Franciele Velasques',
-			'Iury Kuznecow','Ana Carolina dos Santos',
-			'Carolina Ceolato','Gabriela Leguissamo']
+	nomes = ['Name1','Name2'] #Insert the names
+	email = '' #Insert your email
 
 
 	br.open(s)
@@ -101,7 +92,7 @@ def beco(s):
 
 
 
-def esko():
+def esko(): 
 	br = mechanize.Browser()
 	pass
 
