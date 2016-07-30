@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 ### PARTY LIST  v0.1a
 
+
+#Esse arquivo contém as funções especiais
+
 import re
 import mechanize
 import bs4
